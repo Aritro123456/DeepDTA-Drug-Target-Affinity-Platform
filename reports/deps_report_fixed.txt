@@ -1,0 +1,15 @@
+--- Dependency Check ---
+torch               : INSTALLED
+torch_geometric     : INSTALLED
+fairseq             : MISSING: No module named 'fairseq'
+einops              : INSTALLED
+rdkit               : INSTALLED
+networkx            : INSTALLED
+flask               : INSTALLED
+flask_cors          : INSTALLED
+
+--- Model Files Check ---
+DeepDTAGen-master/model.py              : FOUND
+DeepDTAGen-master/utils.py              : FOUND
+models/deepdtagen_model_bindingdb.pth   : FOUND
+DeepDTAGen-master/data/bindingdb_tokenizer.pkl: FOUND

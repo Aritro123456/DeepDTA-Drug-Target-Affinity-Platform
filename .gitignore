@@ -1,0 +1,55 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Frontend dependencies and build output
+node_modules/
+deepdta-dashboard-main/node_modules/
+deepdta-dashboard-main/dist/
+
+# Runtime-generated files
+runtime/
+workspace_uploads/
+logs/
+*.log
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large data and model artifacts
+models/
+saved_models/
+*.pth
+*.pkl
+*.pt
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rar
+*.zip
+*.tar.gz
+*.whl
+
+# Keep safe examples/docs
+!.env.example
+!requirements.txt
+!README.txt
+
+# IDE and notebook local files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+screenshot.png
