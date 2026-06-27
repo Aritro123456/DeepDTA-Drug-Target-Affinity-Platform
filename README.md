@@ -157,38 +157,6 @@ start_sandbox_executor.bat
 start_model_service.bat
 ```
 
-## Security And Sharing Notes
-
-This repository is prepared so local secrets and heavy runtime files are not uploaded to GitHub.
-
-Ignored from GitHub:
-
-- `.env`
-- `.venv/`
-- `runtime/`
-- `models/`
-- `node_modules/`
-- frontend build output
-- local databases
-- model weights
-- generated logs and uploads
-
-This is important because a public AI/ML project should not expose private keys, local databases, trained model files, or generated runtime data accidentally.
-
-## Current Status
-
-This project is currently best suited for local development, demonstration, and portfolio presentation.
-
-For a full public production deployment, the next improvements would be:
-
-- move large datasets/model files to external storage or Git LFS
-- use a production database
-- deploy frontend and backend separately
-- use HTTPS and managed secrets
-- add production-grade rate limiting and monitoring
-- host the heavy model service on suitable compute
-- use a stronger isolated environment for public notebook execution
-
 ## Project Goal
 
 The goal of this project is to show how AI research code can become a more usable and understandable web platform.
